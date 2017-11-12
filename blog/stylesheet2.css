@@ -1,0 +1,40 @@
+body {
+	font-size: 85%;
+	text-align: justify;
+	background-color: #ECD897;
+  text-decoration-color: #7E7C74;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  text-shadow: 3px 2px #FFFFFF;
+  font-family:  "Verdana", monospace;
+  text-align: center;
+}
+h2 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: "Verdana", monospace;
+  text-align: center;
+}
+h3 {
+  font-size: 18px;
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Verdana", monospace;
+}
+p {
+  font-size: 15px;
+  font-family:  "Verdana", monospace;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+br {
+  text-indent: 50px;
+}
