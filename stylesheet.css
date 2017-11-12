@@ -1,15 +1,15 @@
 body {
 	font-size: 85%;
 	text-align: justify;
-	background-color: ECD897;
-  color: 7E7C74;
+	background-color: #ECD897;
+  text-decoration-color: #7E7C74;
 }
 h1 {
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 5px;
   word-spacing: 10px;
-  text-shadow: 3px 2px 010101;
+  text-shadow: 3px 2px #FFFFFF;
   font-family:  "Verdana", monospace;
   text-align: center;
 }
@@ -23,6 +23,7 @@ h3 {
   font-size: 18px;
   text-decoration: underline;
   text-align: center;
+  font-family: "Verdana", monospace;
 }
 p {
   font-size: 15px;
@@ -30,5 +31,9 @@ p {
   font-family:  "Verdana", monospace;
   text-align: justify;
   letter-spacing: 3px;
-  line-height: 20px;
+  line-height: 30px;
+}
+
+br {
+  text-indent: 50px;
 }
