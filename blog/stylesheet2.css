@@ -34,7 +34,12 @@ p {
   letter-spacing: 2px;
   line-height: 30px;
 }
-
+#homelink {
+  text-align: center;
+	font-size: 22px;
+	font-family: "Verdana", monospace;
+	color: #020202;
+}
 br {
   text-indent: 50px;
 }

@@ -27,13 +27,16 @@ h3 {
 }
 p {
   font-size: 15px;
-  text-indent: 50px;
   font-family:  "Verdana", monospace;
-  text-align: justify;
+  text-align: center;
   letter-spacing: 3px;
   line-height: 30px;
 }
-
+a {
+  text-align: center;
+  font-size: 22px
+  font-family: "Verdana", monospace;
+}
 br {
   text-indent: 50px;
 }
