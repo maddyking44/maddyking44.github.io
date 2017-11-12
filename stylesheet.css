@@ -32,11 +32,6 @@ p {
   letter-spacing: 3px;
   line-height: 30px;
 }
-a {
-  text-align: center;
-  font-size: 22px
-  font-family: "Verdana", monospace;
-}
 br {
   text-indent: 50px;
 }
