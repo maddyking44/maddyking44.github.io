@@ -26,6 +26,7 @@ h3 {
   text-decoration: underline;
   text-align: center;
   font-family: "Verdana", monospace;
+	margin-top: 20px;
 }
 p {
   font-size: 15px;
@@ -38,4 +39,16 @@ p {
   text-align: center;
 	font-family: "Verdana", monospace;
 	color: #020202;
+}
+ul {
+		text-align: left;
+		list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: -10px;
+    margin-right: 0;
+		font-size: 15px;
+		font-family:  "Verdana", monospace;
+		letter-spacing: 2px;
+		line-height: 30px;
 }

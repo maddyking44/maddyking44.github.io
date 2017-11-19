@@ -1,7 +1,6 @@
 body {
 	font-size: 85%;
-	text-align: justify;
-	background-color: #ECD897;
+	background-color: #F7F8E0;
   text-decoration-color: #7E7C74;
 }
 h1 {
@@ -20,18 +19,61 @@ h2 {
   text-align: center;
 }
 h3 {
-  font-size: 18px;
-  text-decoration: underline;
-  text-align: center;
-  font-family: "Verdana", monospace;
-}
+	  font-size: 28px;
+		font-family: "Calibri", monospace;
+		position: fixed;
+    left: -.1em;
+    top: 60;
+    width: 1em;
+    line-height: 0.8;
+    text-align: center;
+		text-transform: uppercase;
+    word-wrap: break-word;
+    text-shadow: 0 0 28px rgba(0,0,0,0.3);
+	}
+
 p {
   font-size: 15px;
   font-family:  "Verdana", monospace;
-  text-align: center;
   letter-spacing: 3px;
   line-height: 30px;
 }
-br {
-  text-indent: 50px;
+.title {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	webkit-transform: rotate(-90deg);
+
+}
+.reflection {
+	border-color: #020202;
+	border-width: 1px;
+	border-style: solid;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	flex-flow: wrap;
+  justify-content: flex-start;
+	margin: 30px;
+}
+
+.reflect-text {
+	padding-left: 10px;
+
+}
+.time-box {
+	border-color: #020202;
+	border-width: 1px;
+	border-style: solid;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: flex-start;
+	margin: 30px;
+}
+.image {
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: wrap;
 }
