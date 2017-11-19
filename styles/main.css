@@ -23,7 +23,7 @@ h3 {
 		font-family: "Calibri", monospace;
 		position: fixed;
     left: -.1em;
-    top: 60;
+    top: 60px;
     width: 1em;
     line-height: 0.8;
     text-align: center;
@@ -38,6 +38,7 @@ p {
   letter-spacing: 3px;
   line-height: 30px;
 }
+
 .title {
 	display: -webkit-flex;
 	display: flex;
@@ -76,4 +77,56 @@ p {
 	display: -webkit-flex;
 	display: flex;
 	flex-flow: wrap;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+		border: 1px solid red;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+}
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+		display: flex;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 49.99%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 74.99%;
+}
+.col-10 {
+	width: 88.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
 }
