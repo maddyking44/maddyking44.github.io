@@ -1,10 +1,7 @@
 body {
 	font-size: 85%;
-	text-align: justify;
 	background-color:  #F7F8E0;
   text-decoration-color: #7E7C74;
-	padding-left: 50px;
-	padding-right: 50px;
 }
 h1 {
   font-size: 30px;
@@ -35,6 +32,8 @@ p {
   letter-spacing: 2px;
   line-height: 30px;
 	overflow: auto;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 #homelink {
   text-align: center;
@@ -52,4 +51,14 @@ ul {
 		font-family:  "Verdana", monospace;
 		letter-spacing: 2px;
 		line-height: 30px;
+}
+
+.reflect {
+	float: none;
+}
+
+.wireframe {
+	-ms-transform: rotate(90deg); /* IE 9 */
+-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+transform: rotate(90deg);
 }
