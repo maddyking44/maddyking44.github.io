@@ -54,10 +54,12 @@
   <br>
   <h3>Difficulties</h3>
     <p>
-      I couldn't centre the image in the middle of the page- I think it's aligned to the left of its grid square. I tried aligninging the image element in html, aligning the div, and aligning the element in CSS and nothing worked. I guess it's the float: left property in the skeleton css? I experimented alot with the utility classes to get the images to look how I wanted them to, but I still don't compeltely understand the difference between u-max-full-width and u-full-width, as both are set to 100% in the CSS.
+      I had difficulty aligning the image to center using CSS and just ended up using center tags in the html. I experimented alot with the utility classes to get the images to look how I wanted them to, but I still don't compeltely understand the difference between u-max-full-width and u-full-width, as both are set to 100% in the CSS.
     </p>
     <p>
-      Having a range of different sized images and trying to get them all to look consistent in terms of size was another challenge. And getting these different sized images (some square and some rectangle) to responsively grow and shrink with the page size. The percentage size values I wanted to asign to the images seemed to clash with the skeleton grid.
+      When I put my 4 wireframes side by side they were too small, so I had to override the margins in the skeleton container, and set the with to 100% and the max-width to 95% to get them filling up as much of the space as I could. I added to the utility classes in my own CSS to rotate the images which were defaulting to vertical. I think I'll just always want to do things my own way more than just submitting to what a framework lets me do.
+    </p>
+    <p>
       I'd love to know if that flex-box stuff we learned last sprint is still useful, if it was trash, whether and why skeleton is better, whether we can use both at once in the same grid, etc. I just always want to know how to get elements to stack on a mobile screen. The flex-wrap property allowed for that. How is skeleton doing it? Is it the float-left property? I'm also interested in the skeleton media queries, like it sets parameters for devices larger than 400px but where's the original code for devices smaller than that, or how does the browser know how to interpret it for tiny screens.
     </p>
   <footer>
