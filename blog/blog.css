@@ -58,17 +58,17 @@ ul {
 	max-width: 95%;
 	margin: 20px;
 }
-.u-full-width {
+
+.rotate {
 	-ms-transform: rotate(90deg); /* IE 9 */
 	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
 	transform: rotate(90deg);
+}
+.u-full-width {
 	float: none;
 }
 
 .u-max-full-width {
-	-ms-transform: rotate(90deg); /* IE 9 */
-	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-	transform: rotate(90deg);
 	float: none;
 }
 @media (min-width: 550px) {
