@@ -64,12 +64,22 @@ button:hover {
   color: rgb(66, 60, 60);
 }
 
-@media screen 
-and (max-device-width : 600px) {
-  h1 {font-size: 35px}
+@media only screen 
+and (min-width : 320px) {
+  h1 {font-size: 35px};
   button {font-size: 30px;
     position: fixed;
     bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);}
+}
+
+@media only screen 
+and (min-width : 200px) {
+  h1 {font-size: 25px};
+  button {font-size: 20px;
+    position: fixed;
+    bottom: 10px;
     left: 50%;
     transform: translate(-50%, 0);}
 }
