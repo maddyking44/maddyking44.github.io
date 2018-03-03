@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 5px;
   word-spacing: 10px;
@@ -49,12 +49,12 @@ max-width: 30%;
 button {
   padding: 40px;
   border-radius: 12px;
-  font-size: 26px;
+  font-size: 30px;
   font-family: "Calibri", monospace;
   box-shadow: 3px 2px #7E7C74;
   margin-top: 40px;
   position: fixed;
-  bottom: 280px;
+  bottom: 300px;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -64,33 +64,41 @@ button:hover {
   color: rgb(66, 60, 60);
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) {
-  h1 {font-size: 85px};
-  button {font-size: 60px;
+/* iphone 5 */
+@media only screen and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  h1 {font-size: 100px;
+    margin-top: 200px;}
+  button {font-size: 90px;
     position: fixed;
-    bottom: 30px;
+    bottom: 380px;
     left: 50%;
     transform: translate(-50%, 0);}
 }
 
+/* iPhone 6+, 7, 7+, 8, 8+ */
 @media only screen 
-and (min-width : 414px) {
-  h1 {font-size: 45px};
-  button {font-size: 40px;
+and (min-device-width : 414px) 
+and (max-device-height: 736px) {
+  h1 {font-size: 100px;
+    margin-top: 200px;}
+  button {font-size: 90px;
     position: fixed;
-    bottom: 40px;
+    bottom: 350px;
     left: 50%;
     transform: translate(-50%, 0);}
 }
 
+
+/* iPhone 6 */
 @media only screen 
-and (min-width : 375px) {
-  h1 {font-size: 50px};
-  button {font-size: 45px;
+and (min-device-width : 375px)
+and (max-device-height: 667px) {
+  h1 {font-size: 100px;
+    margin-top: 200px;}
+  button {font-size: 90px;
     position: fixed;
-    bottom: 45px;
+    bottom: 350px;
     left: 50%;
     transform: translate(-50%, 0);}
 }
