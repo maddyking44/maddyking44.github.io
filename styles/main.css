@@ -3,6 +3,7 @@ body {
 	background-color: #F7F8E0;
   text-decoration-color: #7E7C74;
 }
+
 h1 {
   font-size: 30px;
   text-transform: uppercase;
@@ -12,6 +13,7 @@ h1 {
   font-family:  "Verdana", monospace;
   text-align: center;
 }
+
 h2 {
   font-size: 18px;
   letter-spacing: 2px;
@@ -54,4 +56,9 @@ button {
 button:hover {
   background-color: #e8f0ff;
   color: rgb(66, 60, 60);
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {font-size: 45px}
+  button {font-size: 40px}
 }
