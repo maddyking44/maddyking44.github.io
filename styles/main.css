@@ -12,6 +12,7 @@ h1 {
   text-shadow: 3px 2px #FFFFFF;
   font-family:  "Verdana", monospace;
   text-align: center;
+  margin-top: 60px;
 }
 
 h2 {
@@ -51,6 +52,11 @@ button {
   font-size: 26px;
   font-family: "Calibri", monospace;
   box-shadow: 3px 2px #7E7C74;
+  margin-top: 40px;
+  position: fixed;
+  bottom: 300px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 button:hover {
@@ -59,6 +65,10 @@ button:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  h1 {font-size: 45px}
-  button {font-size: 40px}
+  h1 {font-size: 35px}
+  button {font-size: 30px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);}
 }
