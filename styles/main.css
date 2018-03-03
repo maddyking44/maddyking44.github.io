@@ -64,7 +64,7 @@ button:hover {
   color: rgb(66, 60, 60);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
   h1 {font-size: 35px}
   button {font-size: 30px;
     position: fixed;
