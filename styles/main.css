@@ -42,3 +42,16 @@ p {
 #hero {
 max-width: 30%;
 }
+
+button {
+  padding: 40px;
+  border-radius: 12px;
+  font-size: 26px;
+  font-family: "Calibri", monospace;
+  box-shadow: 3px 2px #7E7C74;
+}
+
+button:hover {
+  background-color: #e8f0ff;
+  color: rgb(66, 60, 60);
+}
