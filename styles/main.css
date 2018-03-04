@@ -64,14 +64,14 @@ button:hover {
   color: rgb(66, 60, 60);
 }
 
-/* iphone 5 */
+/* iphone 4. 5s */
 @media only screen and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-  h1 {font-size: 100px;
+  h1 {font-size: 90px;
     margin-top: 200px;}
   button {font-size: 90px;
     position: fixed;
-    bottom: 380px;
+    bottom: 180px;
     left: 50%;
     transform: translate(-50%, 0);}
 }
