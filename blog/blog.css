@@ -41,16 +41,25 @@ p {
 	color: #020202;
 }
 ul {
-		text-align: left;
 		list-style-type: disc;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: -10px;
-    margin-right: 0;
-		font-size: 15px;
-		font-family:  "Verdana", monospace;
-		letter-spacing: 2px;
-		line-height: 30px;
+    font-size: 15px;
+    font-family:  "Verdana", monospace;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 30px;
+    overflow: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ol {
+  font-size: 15px;
+  font-family:  "Verdana", monospace;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 30px;
+  overflow: auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .container {
