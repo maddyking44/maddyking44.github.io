@@ -19,10 +19,31 @@
 //     res.redirect('/nextPage')
 // })
 
+var userOne = []
+
 function profileObj(){
-    var userOne = document.getElementById("firstname").value
+    var userOne = {
+        firstname: (document.getElementById("firstname").value),
+        lastname: (document.getElementById("lastname").value),
+        tagline: (document.getElementById("tagline").value),
+        email: (document.getElementById("email").value),
+        profilepic: (document.getElementById("profilepic").value)
+    }
     console.log(userOne)
 }
+
+var userTwo = {
+    firstname: "Sam",
+    lastname: "Jae",
+    tagline: "fish soup",
+    email: "sam.j@hotmail.com"
+}
+
+// function printDisplay () {
+document.getElementById("displayName").innerHTML(userOne.firstname);
+// }
+
+// printDisplay()
 
 
 // module.exports = server
