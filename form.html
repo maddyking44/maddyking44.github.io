@@ -7,18 +7,18 @@
     </head>
 
     <body>
-        <form id="profile" method="post" action="nextPage.html" enctype="multipart/form-data">
+        <form id="profile" method="post" action="./displayPage.html" enctype="multipart/form-data">
             First name:
         <input id="firstname" type="text"><br>
             Last name:
-        <input name="lastname" type="text"><br>
-            Email:
-        <input name="email" type="text"><br>
+        <input id="lastname" type="text"><br>
             Tag line: 
-        <input name="tagline" type="text" ><br>
+        <input id="tagline" type="text" ><br>
+            Email:
+        <input id="email" type="text"><br>
             Profile picture: 
-        <input name="profilepic" type="file"><br>
-        <input type="button" onClick="profileObj()" value="Let's go!"/>
+        <input id="profilepic" type="file"><br>
+        <input type="submit" onClick="profileObj()" value="Let's go!"/>
         </form>
 
     </body>

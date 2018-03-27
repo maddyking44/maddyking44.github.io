@@ -19,9 +19,21 @@
 //     res.redirect('/nextPage')
 // })
 
+var userOne = []
+
 function profileObj(){
-    var userOne = document.getElementById("firstname").value
+    var userOne = {
+        firstname: (document.getElementById("firstname").value),
+        lastname: (document.getElementById("lastname").value),
+        tagline: (document.getElementById("tagline").value),
+        email: (document.getElementById("email").value),
+        profilepic: (document.getElementById("profilepic").value)
+    }
     console.log(userOne)
+}
+
+function printDislay () {
+document.getElementById("displayName").innerHTML = (userOne.firstname);
 }
 
 
