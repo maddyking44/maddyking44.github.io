@@ -32,9 +32,18 @@ function profileObj(){
     console.log(userOne)
 }
 
-function printDislay () {
-document.getElementById("displayName").innerHTML = (userOne.firstname);
+var userTwo = {
+    firstname: "Sam",
+    lastname: "Jae",
+    tagline: "fish soup",
+    email: "sam.j@hotmail.com"
 }
+
+// function printDisplay () {
+document.getElementById("displayName").innerHTML(userOne.firstname);
+// }
+
+// printDisplay()
 
 
 // module.exports = server
