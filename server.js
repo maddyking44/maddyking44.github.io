@@ -4,7 +4,7 @@ var server = express()
 var hbs = require('express-handlebars')
 server.use(express.static('public'))
 server.use(bodyParser.urlencoded({ extended: false }))
-var person = {}
+var person = []
 
 //get handlebars working
 var hbsConfig = {
@@ -15,28 +15,34 @@ server.set('view engine', 'hbs')
 
 //render the form
 server.get('/', function (req, res) {
-   res.sendFile(__dirname + '/form.html')
+   res.render('form')
 })
 
 server.post('/displayPage', function (req, res) {
 //get data from form.html and put each part into variables
     var data = req.body 
-    // var person = {
-    //     name: data.firstname + data.lastname,
-    //     tag: data.tagline,
-    //     email: data.email 
-    // }
+    person = {
+        name: data.firstname,
+        tag: data.tagline,
+        // email: data.email 
+    }
     
     //need to do something with email
-    var profilepic = data.profilepic
+    // var profilepic = data.profilepic
     console.log(data)
+    console.log("hello")
+    console.log(person)
+    console.log(person.name)
     // console.log(name)
     res.redirect('/displayPage')
 })
 
 //attaches the displayPage.hbs file to the /displayPage url
 server.get('/displayPage', function (req, res) {
-    res.render('displayPage')
+    console.log("hello maddy")
+    console.log(person)
+    console.log(person.name)
+    res.render('displayPage', person)
 })
 
 
